@@ -1,0 +1,96 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &5549448397201388965
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 2712334592064784327, guid: 9713667325ea6d3449d5105b09643055, type: 3}
+      propertyPath: m_Name
+      value: BulletAlternate
+      objectReference: {fileID: 0}
+    - target: {fileID: 3329300350932593796, guid: 9713667325ea6d3449d5105b09643055, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.066
+      objectReference: {fileID: 0}
+    - target: {fileID: 3329300350932593796, guid: 9713667325ea6d3449d5105b09643055, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.455
+      objectReference: {fileID: 0}
+    - target: {fileID: 3329300350932593796, guid: 9713667325ea6d3449d5105b09643055, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 1.62
+      objectReference: {fileID: 0}
+    - target: {fileID: 3329300350932593796, guid: 9713667325ea6d3449d5105b09643055, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3329300350932593796, guid: 9713667325ea6d3449d5105b09643055, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3329300350932593796, guid: 9713667325ea6d3449d5105b09643055, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3329300350932593796, guid: 9713667325ea6d3449d5105b09643055, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3329300350932593796, guid: 9713667325ea6d3449d5105b09643055, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3329300350932593796, guid: 9713667325ea6d3449d5105b09643055, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3329300350932593796, guid: 9713667325ea6d3449d5105b09643055, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4342985613208391954, guid: 9713667325ea6d3449d5105b09643055, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4709188489132343000, guid: 9713667325ea6d3449d5105b09643055, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 1f8a5ead4838fd0429494bded3cc95a1, type: 2}
+    - target: {fileID: 7302812129259808679, guid: 9713667325ea6d3449d5105b09643055, type: 3}
+      propertyPath: _lifespan
+      value: 3
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 4342985613208391954, guid: 9713667325ea6d3449d5105b09643055, type: 3}
+    - {fileID: 3531518456537879288, guid: 9713667325ea6d3449d5105b09643055, type: 3}
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 2712334592064784327, guid: 9713667325ea6d3449d5105b09643055, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: -5406461468346297095}
+  m_SourcePrefab: {fileID: 100100000, guid: 9713667325ea6d3449d5105b09643055, type: 3}
+--- !u!1 &7541202924643955298 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2712334592064784327, guid: 9713667325ea6d3449d5105b09643055, type: 3}
+  m_PrefabInstance: {fileID: 5549448397201388965}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &-5406461468346297095
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7541202924643955298}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 68ef30bb35d0a714bb8bef73bbc29a55, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _bulletSpeed: 30
+  _lifespan: 5
+  _explosionVFX: {fileID: 1762618024501834822, guid: 143afe25ec4a77b4685fc484572b56ad, type: 3}
